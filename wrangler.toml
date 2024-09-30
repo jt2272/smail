@@ -1,6 +1,6 @@
 #:schema node_modules/wrangler/config-schema.json
 name = "smail"
-compatibility_date = "2024-09-25"
+compatibility_date = "2024-09-30"
 main = "app/worker.ts"
 assets = { directory = "./build/client" }
 
@@ -9,11 +9,11 @@ enabled = true
 
 [[kv_namespaces]]
 binding = "KV"
-id = "07f8fe12acba46bbba773dbf6b68aa81"
+id = "9229f90a80604be3ad0d5fc16ef86782"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "smail"
-database_id = "f591d1c7-0060-4d35-a146-099ec27b49b1"
-preview_database_id = "f591d1c7-0060-4d35-a146-099ec27b49b1"
+database_id = "816f4666-3329-4538-952f-8adaa2a09f19"
+preview_database_id = "816f4666-3329-4538-952f-8adaa2a09f19"
 migrations_dir = "app/drizzle"
